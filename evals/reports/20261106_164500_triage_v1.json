@@ -1,0 +1,108 @@
+{
+  "model": "qwen2.5:14b",
+  "prompt_version": "triage_v1",
+  "cases": 50,
+  "errors": 0,
+  "category_accuracy": 0.72,
+  "per_class_recall": {
+    "bug": 0.85,
+    "feature": 0.85,
+    "question": 0.2
+  },
+  "confusion": {
+    "bug->bug": 17,
+    "feature->feature": 17,
+    "feature->question": 1,
+    "question->bug": 5,
+    "question->feature": 3,
+    "feature->bug": 2,
+    "bug->feature": 3,
+    "question->question": 2
+  },
+  "failures": [
+    {
+      "number": 63813,
+      "expected": "feature",
+      "got": "question",
+      "title": "Wasm build"
+    },
+    {
+      "number": 62226,
+      "expected": "question",
+      "got": "bug",
+      "title": "Interface with Required<UnionType> parameter not enforced when implementation accepts UnionType"
+    },
+    {
+      "number": 62490,
+      "expected": "question",
+      "got": "bug",
+      "title": "Module resolution: \"nodenext\" fails to follow imports in `.d.ts` files of dependency packages that are `\"type\": \"module\"`"
+    },
+    {
+      "number": 62803,
+      "expected": "question",
+      "got": "feature",
+      "title": "ScrollIntoViewOptions missing `container` option"
+    },
+    {
+      "number": 63320,
+      "expected": "feature",
+      "got": "bug",
+      "title": "importModuleSpecifier \"shortest\" does not choose shortest result among multiple matching paths aliases"
+    },
+    {
+      "number": 62284,
+      "expected": "question",
+      "got": "bug",
+      "title": "Typescript incorrectly infers array typing after applying a non-falsy filter"
+    },
+    {
+      "number": 64262,
+      "expected": "bug",
+      "got": "feature",
+      "title": "Port `DirWatchSet` over to TS7"
+    },
+    {
+      "number": 62413,
+      "expected": "bug",
+      "got": "feature",
+      "title": "Add readonly modifier to Math.min and Math.max"
+    },
+    {
+      "number": 63405,
+      "expected": "question",
+      "got": "bug",
+      "title": "VSCode's TypeScript Language Server Keeps Crashing on a Project"
+    },
+    {
+      "number": 62106,
+      "expected": "question",
+      "got": "feature",
+      "title": "If I have multi-group character mode to create responsible objects, I want to define multi-group dynamic keys"
+    },
+    {
+      "number": 63361,
+      "expected": "question",
+      "got": "feature",
+      "title": "`Flatten<O>` does not merge union object fields \u2014 distributes instead"
+    },
+    {
+      "number": 63702,
+      "expected": "bug",
+      "got": "feature",
+      "title": "`lib.d.ts` Updates for TypeScript 7.1"
+    },
+    {
+      "number": 63970,
+      "expected": "feature",
+      "got": "bug",
+      "title": "Inconsistent typing of endless generators between functions and lambdas"
+    },
+    {
+      "number": 64076,
+      "expected": "question",
+      "got": "bug",
+      "title": "Regression for function types in JSDoc"
+    }
+  ]
+}

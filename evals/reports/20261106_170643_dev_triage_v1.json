@@ -1,0 +1,137 @@
+{
+  "dataset": "dev",
+  "model": "qwen2.5:14b",
+  "prompt_version": "triage_v1",
+  "cases": 50,
+  "errors": 0,
+  "category_accuracy": 0.62,
+  "per_class_recall": {
+    "bug": 1.0,
+    "feature": 0.8,
+    "question": 0.2
+  },
+  "confusion": {
+    "bug->bug": 15,
+    "question->bug": 13,
+    "feature->bug": 3,
+    "question->feature": 3,
+    "feature->feature": 12,
+    "question->question": 4
+  },
+  "failures": [
+    {
+      "number": 62112,
+      "expected": "question",
+      "got": "bug",
+      "title": "`ts.ImportClause.namedBindings.forEachChild()` and `getChildren()` process different number of results"
+    },
+    {
+      "number": 62134,
+      "expected": "feature",
+      "got": "bug",
+      "title": "All types of ECMAScript NativeErrors are always subtype reduced between themselves"
+    },
+    {
+      "number": 62364,
+      "expected": "question",
+      "got": "feature",
+      "title": "Allowing using the current type in class generic"
+    },
+    {
+      "number": 63686,
+      "expected": "question",
+      "got": "bug",
+      "title": "`!` does not narrow discriminated unions when `strict` is `false`"
+    },
+    {
+      "number": 62778,
+      "expected": "feature",
+      "got": "bug",
+      "title": "Inconsistent object literal key completion for enum keys"
+    },
+    {
+      "number": 63275,
+      "expected": "question",
+      "got": "bug",
+      "title": "TypeScript enum emit inconsistency"
+    },
+    {
+      "number": 64387,
+      "expected": "feature",
+      "got": "bug",
+      "title": "SyncRpcChannel reads private `stdout._handle.fd`, breaking the sync API on non-Node runtimes (Bun)"
+    },
+    {
+      "number": 64957,
+      "expected": "question",
+      "got": "bug",
+      "title": "type Exclude on class hierarchy resolves to never"
+    },
+    {
+      "number": 62485,
+      "expected": "question",
+      "got": "bug",
+      "title": "import does not search for sibling `.d.ts` file when the import is a bare module (non node)"
+    },
+    {
+      "number": 62427,
+      "expected": "question",
+      "got": "bug",
+      "title": "boolean extend boolean is false in some case"
+    },
+    {
+      "number": 62674,
+      "expected": "question",
+      "got": "bug",
+      "title": "Module resolution: noUncheckedSideEffectImports doesn't resolve CSS-only node_modules with globals.d.ts"
+    },
+    {
+      "number": 62565,
+      "expected": "question",
+      "got": "bug",
+      "title": ".tsbuildinfo not ignored when incremental is false."
+    },
+    {
+      "number": 62475,
+      "expected": "question",
+      "got": "bug",
+      "title": "Unexpected TS5055 error \"Cannot write file X because it would overwrite input file\""
+    },
+    {
+      "number": 62884,
+      "expected": "question",
+      "got": "bug",
+      "title": "ts.parseJsonConfigFileContent double-adds relative path, resulting in broken \"include\" pattern."
+    },
+    {
+      "number": 62816,
+      "expected": "question",
+      "got": "bug",
+      "title": "`tsc` transpile js to js converts Set iteration loops to invalid numeric key indexing"
+    },
+    {
+      "number": 62715,
+      "expected": "question",
+      "got": "feature",
+      "title": "TypeScript drops generic branch types in async functions returning Result/Err/Ok"
+    },
+    {
+      "number": 62216,
+      "expected": "question",
+      "got": "feature",
+      "title": "Resolve type structure with optional properties"
+    },
+    {
+      "number": 63346,
+      "expected": "question",
+      "got": "bug",
+      "title": "Experimental (deprecated) decorators are included by default"
+    },
+    {
+      "number": 63942,
+      "expected": "question",
+      "got": "bug",
+      "title": "`tsc -b -w` won't catch error on file changed across project"
+    }
+  ]
+}

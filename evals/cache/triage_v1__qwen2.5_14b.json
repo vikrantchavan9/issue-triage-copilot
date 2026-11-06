@@ -1,0 +1,252 @@
+{
+ "64927": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "A conformance test fixture has a duplicate filename directive that causes content loss."
+ },
+ "62112": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "The `forEachChild` method processes a different number of results compared to `getChildren()` for named bindings in an import clause."
+ },
+ "62134": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "TypeScript incorrectly treats all ECMAScript NativeError types as structurally equivalent, leading to incorrect type inference and potential runtime errors."
+ },
+ "65287": {
+  "category": "bug",
+  "severity": "high",
+  "summary": "Downlevel emit of logical assignment operators evaluates the member target twice when it includes type assertions or non-null assertion."
+ },
+ "62364": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Propose adding a 'Self' type for use in class generics to represent the current class type."
+ },
+ "62500": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Proposes a new 'pick' keyword for generics to enforce exact type matches."
+ },
+ "63628": {
+  "category": "bug",
+  "severity": "low",
+  "summary": "Diagnostic message is misleading when reporting an error for merging function declarations with class definitions."
+ },
+ "63532": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Proposes native support for runtime-safe type casts and checks in TypeScript to enhance safety when dealing with untyped data."
+ },
+ "63686": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "The TypeScript compiler does not narrow discriminated unions with `!` when `strict` mode is off."
+ },
+ "62953": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Request to suppress inlay hints for variables/consts that hold arrow functions with matching return types."
+ },
+ "62449": {
+  "category": "feature",
+  "severity": "medium",
+  "summary": "Proposes a new Node.js API or parameter for resolving package names directly to their directory without requiring specific exports in package.json."
+ },
+ "65109": {
+  "category": "feature",
+  "severity": "medium",
+  "summary": "Propose allowing ambient module declarations with import attributes to refer to the module they matched."
+ },
+ "65096": {
+  "category": "question",
+  "severity": "low",
+  "summary": "Clarification needed on EULA and Background Sync provenance in TypeScript 5.9.3 third-party notices."
+ },
+ "62778": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "IntelliSense suggests numeric string literals instead of enum member names when completing object literal keys for an enum type."
+ },
+ "63275": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "TypeScript emits string-enum style for enums with const string values in 5.x, while 4.9 emitted reverse-mapping style."
+ },
+ "63584": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "TypeScript incorrectly reports a circular reference error for tagged/named rest parameters in type definitions."
+ },
+ "64387": {
+  "category": "bug",
+  "severity": "high",
+  "summary": "The TypeScript sync API crashes on non-Node runtimes like Bun due to accessing private Node stream internals."
+ },
+ "62193": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Propose support for multiple properties in JSX.ElementAttributesProperty to enable co-usage of different component types with distinct prop accessors."
+ },
+ "64957": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "The TypeScript Exclude utility type incorrectly resolves to never when applied to a union of class types, despite one being distinct from another."
+ },
+ "62785": {
+  "category": "question",
+  "severity": "low",
+  "summary": "The author asks about the iteration plan for TypeScript versions 5.10 and 6.0."
+ },
+ "62485": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "TypeScript does not search for a sibling .d.ts file when using a bare module import, leading to type errors."
+ },
+ "62427": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "Type guard for boolean does not behave consistently in different orderings."
+ },
+ "62841": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Propose allowing subpath imports that start with `#/` to enable symmetric exports and imports in package.json."
+ },
+ "62674": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "The noUncheckedSideEffectImports option does not correctly resolve CSS-only modules with a custom type definition."
+ },
+ "63635": {
+  "category": "question",
+  "severity": "low",
+  "summary": "The author asks whether TypeScript allows one-way assertions with `asserts` that are not if-and-only-if."
+ },
+ "62565": {
+  "category": "bug",
+  "severity": "high",
+  "summary": "The .tsbuildinfo file is emitted even when incremental and composite are set to false, preventing clean builds and causing issues with package publishing."
+ },
+ "62835": {
+  "category": "feature",
+  "severity": "medium",
+  "summary": "Propose automatic updating of mock paths in test frameworks when files are renamed or moved."
+ },
+ "64862": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "Language server rebuilds and deletes non-matching referenced projects on every didOpen event."
+ },
+ "63847": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "Auto-imports fail due to an unimplemented function `GetSourceOfProjectReferenceIfOutputIncluded`."
+ },
+ "62475": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "The TypeScript compiler incorrectly reports TS5055 errors when attempting to overwrite input files during a build."
+ },
+ "64628": {
+  "category": "bug",
+  "severity": "high",
+  "summary": "JSDoc annotations for private and protected properties declared via constructor assignments are not correctly emitted in declaration files."
+ },
+ "63274": {
+  "category": "bug",
+  "severity": "low",
+  "summary": "Chinese translation of TS2561 error message is misleading and grammatically incorrect."
+ },
+ "63780": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Proposes adding import sorting configuration to tsconfig.json for better organization and prioritization of import paths."
+ },
+ "63092": {
+  "category": "bug",
+  "severity": "high",
+  "summary": "The TypeScript compiler crashes with a RangeError when processing complex for loop headers involving generator functions and throw statements."
+ },
+ "62884": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "The TypeScript compiler incorrectly resolves relative paths in tsconfig.json when the current working directory differs from the config file's location."
+ },
+ "62816": {
+  "category": "bug",
+  "severity": "high",
+  "summary": "`tsc --allowJs` incorrectly transpiles Set iteration loops into invalid numeric key indexing."
+ },
+ "62606": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "Changing property declaration order in an interface causes a type error that should not occur."
+ },
+ "62715": {
+  "category": "feature",
+  "severity": "medium",
+  "summary": "TypeScript drops generic branch types in async functions returning Result/Err/Ok, leading to loss of type information."
+ },
+ "62713": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Request for TypeScript/JavaScript intellisense to support package.json imports and exports fields."
+ },
+ "62216": {
+  "category": "feature",
+  "severity": "medium",
+  "summary": "Propose allowing TypeScript to infer optional properties in type intersections when resolving types from objects with varying property sets."
+ },
+ "63065": {
+  "category": "question",
+  "severity": "low",
+  "summary": "The author asks whether the syntax `class A extends (B<T>)<T> {}` is valid TypeScript code."
+ },
+ "63874": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "Language server returns incorrect file URI when resolving definitions in declaration maps."
+ },
+ "63346": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "The legacy experimental decorators are included by default, causing conflicts with new decorator types."
+ },
+ "64029": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "Auto-import feature does not suggest barrel paths when the imported folder name is a prefix of the importing file name."
+ },
+ "62210": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Proposal to deprecate and remove support for import assertions in favor of import attributes."
+ },
+ "64614": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "TypeScript 7 declaration emit incorrectly includes unbound type parameters in .d.ts files instead of emitting 'any' as in version 6."
+ },
+ "63942": {
+  "category": "bug",
+  "severity": "medium",
+  "summary": "tsc -b -w does not detect changes in referenced projects that affect dependent files."
+ },
+ "64098": {
+  "category": "bug",
+  "severity": "high",
+  "summary": "On case-insensitive filesystems, TypeScript drops files with different cases but similar names due to incorrect handling in the include mechanism."
+ },
+ "64235": {
+  "category": "feature",
+  "severity": "low",
+  "summary": "Proposes adjusting folding range behavior to include terminating lines based on presence of non-trivia tokens."
+ },
+ "63358": {
+  "category": "bug",
+  "severity": "low",
+  "summary": "Error message for JSX element is incorrectly displayed on a comment instead of the actual problematic code."
+ }
+}
